@@ -1,0 +1,290 @@
+@CHARSET "UTF-8";
+
+.birthDate{
+	width: 150px;
+}
+
+.create-profile {
+	float: left;
+}
+
+.create-profile button {
+	width: 130px;
+}
+
+.my-name {
+	width: 100%;
+	font-size: 20px;
+	color: #404040;
+}
+
+b {
+	color: #404040;
+}
+
+.profile-content {
+	border: solid 1px #A2A3A5;
+}
+
+.table-col-th {
+	display: table-cell;
+	text-align: left;
+	width: 100px;
+	color: #404040;
+	font-size: 18px;
+	vertical-align: top;
+}
+
+.table-col-td {
+	display: table-cell;
+	color: #404040;
+	text-align: left;
+	padding-left: 5px;
+	font-size: 16px;
+}
+
+.inner-tab {
+	padding: 5px;
+	text-align: left;
+	font-size: 17px;
+}
+
+.table {
+	color: black;
+	padding: 5px;
+	width: 60%;
+}
+
+.table-row {
+	text-align: center;
+	padding: 8px;
+}
+
+.table-col {
+	padding: 2px;
+	display: table-cell;
+}
+
+.rec-add-success {
+	padding-top: 10px;
+	color: green;
+	font-size: 12px;
+	color: green;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#content {
+	font-family: sans-serif;
+	font-size: 25px;
+	color: red;
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+
+.site-title {
+	font-size: 40px;
+	color: white;
+	font-weight: lighter;
+}
+
+.site-name {
+	width: 870px;
+}
+
+.logout-btn {
+	font-size: 18px;
+}
+
+.profile-icon {
+	float: left;
+	width: 50px;
+	cursor: pointer;
+	margin-left: 5px;
+}
+
+.profile-icon:HOVER {
+	background-color: #3DBFAF;
+}
+
+.logout-btn a {
+	color: white;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.logout-btn a:HOVER {
+	text-decoration: underline;
+}
+
+.header {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: Trebuchet MS, sans-serif;
+	border-bottom: solid 1px #E3E3E3;
+	background-color: #008272;
+}
+
+#login-panel {
+	font-size: 17px;
+	color: #404040;
+	font-weight: lighter;
+	border: solid 1px #E3E3E3;
+	width: 230px;
+	padding: 20px 40px 20px 40px;
+	background-color: #F7F7F7;
+	height: 300px;
+	margin-top: 20px;
+	letter-spacing: 3px;
+	position: relative;
+	left: 35%;
+	margin-bottom: 10px;
+}
+
+#reg-panel {
+	font-size: 17px;
+	color: #404040;
+	font-weight: lighter;
+	border: solid 1px #E3E3E3;
+	width: 320px;
+	padding: 20px 40px 20px 40px;
+	background-color: #F7F7F7;
+	height: 330px;
+	margin-top: 20px;
+	letter-spacing: 3px;
+	position: relative;
+	left: 29%;
+}
+
+textarea {
+	border: solid 1px #E3E3E3;
+	font-size: 17px;
+	color: #404040;
+	font-family: sans-serif;
+	max-width: 230px;
+	padding: 3px;
+}
+
+.profile-name{
+	width: 150px;
+	font-family: sans-serif;
+	font-size: 17px;
+	color: #404040;
+	padding-left: 4px;
+	text-align: center;
+}
+
+.experience{
+	width: 100px;	
+}
+
+.profile-my-name{
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.profile-input{
+	font-size: 17px;
+	font-family: sans-serif;
+	padding: 3px;
+	color: #404040;
+}
+
+input {
+	height: 30px;
+	width: 230px;
+	border: solid 1px #E3E3E3;
+	font-size: 20px;
+	color: #BEBEBE;
+}
+
+button {
+	padding: 10px;
+	border: solid 1px #008272;
+	background-color: #008272;
+	color: white;
+	width: 200px;
+	margin-top: 12px;
+	border-radius: 3px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.login-btn {
+	text-align: center;
+}
+
+.page-title {
+	font-size: 25px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #008272;
+	padding-bottom: 10px;
+}
+
+.login-panel-label {
+	padding: 5px;
+}
+
+.sign-up {
+	font-size: 15px;
+	font-weight: lighter;
+	padding-top: 20px;
+}
+
+.sign-up a {
+	text-decoration: none;
+	color: #008272;
+}
+
+.sign-up a:HOVER {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.footer {
+	color: #9A9A9A;
+	border-top: solid 1px #9A9A9A;
+}
+
+.footer-link {
+	font-size: 20px;
+	font-weight: lighter;
+	float: left;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 33%;
+}
+
+.my-menus a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.menu-item {
+	width: 48.4%;
+	float: left;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #E3E3E3;
+	float: left;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.menu-item:HOVER {
+	background-color: #888888;
+}
+
+.margin-right {
+	margin-right: 2px;
+}
+
+.my-menus a :HOVER {
+	text-decoration: underline;
+}
