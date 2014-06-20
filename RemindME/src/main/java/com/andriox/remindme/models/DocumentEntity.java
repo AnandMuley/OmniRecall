@@ -6,18 +6,18 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "TAB_DOC", schema = "REMINDME")
-public class Document {
+public class DocumentEntity {
 
 	@Id
 	private Integer id;
 	private String name;
 	private String description;
 
-	public Document() {
+	public DocumentEntity() {
 
 	}
 
-	public Document(String name, String description) {
+	public DocumentEntity(String name, String description) {
 		this.name = name;
 		this.description = description;
 	}

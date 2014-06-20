@@ -1,13 +1,13 @@
 package com.andriox.remindme.daos;
 
-import com.andriox.remindme.models.Document;
+import com.andriox.remindme.models.DocumentEntity;
 
 public interface DocumentDao {
 
-	int saveDocument(Document document);
+	DocumentEntity saveDocument(DocumentEntity document);
 
-	Document findById(int id);
+	DocumentEntity findById(int id);
 
-	int deleteDocument(Document document);
+	void deleteDocument(DocumentEntity document);
 
 }
