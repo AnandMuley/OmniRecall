@@ -34,4 +34,12 @@ public class DocumentDaoImpl implements DocumentDao {
 		factory.getCurrentSession().delete(document);
 	}
 
+	@SuppressWarnings("unchecked")
+	public List<DocumentEntity> fetchAll() {
+		Criteria criteria = factory.getCurrentSession().createCriteria(
+				DocumentEntity.class);
+		List<DocumentEntity> docs = criteria.list();
+		return docs;
+	}
+
 }

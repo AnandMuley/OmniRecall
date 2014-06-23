@@ -1,8 +1,11 @@
 package com.andriox.remindme.dtos;
 
-public class DocumentDTO {
+import java.io.Serializable;
 
-	private Integer id;
+public class DocumentDTO implements Serializable {
+
+	private static final long serialVersionUID = -8793451123429194279L;
+	private int id;
 	private String name;
 	private String description;
 
@@ -10,18 +13,22 @@ public class DocumentDTO {
 
 	}
 
-	public DocumentDTO(String name, String description) {
-		super();
+	public DocumentDTO(int id, String name, String description) {
+		this.id = id;
 		this.name = name;
 		this.description = description;
 	}
 
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
 	}
 
 	public String getName() {

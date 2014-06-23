@@ -1,4 +1,4 @@
-package com.andriox.remindme.controllers;
+package com.andriox.remindme.restcontrollers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
-	@RequestMapping
+	@RequestMapping(value = "index")
 	public String renderIndex() {
 		System.out.println("Rendering Index...");
 		return "Index";
