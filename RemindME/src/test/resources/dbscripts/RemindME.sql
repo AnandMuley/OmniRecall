@@ -18,15 +18,15 @@
 -- Create schema remindme
 --
 
-CREATE DATABASE IF NOT EXISTS remindme;
-USE remindme;
+CREATE DATABASE IF NOT EXISTS REMINDME;
+USE REMINDME;
 
 --
--- Definition of table `tab_doc`
+-- Definition of table `TAB_DOC`
 --
 
-DROP TABLE IF EXISTS `tab_doc`;
-CREATE TABLE `tab_doc` (
+DROP TABLE IF EXISTS `TAB_DOC`;
+CREATE TABLE `TAB_DOC` (
   `Id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Name` varchar(50) NOT NULL,
   `Description` varchar(500) NOT NULL,
@@ -34,19 +34,19 @@ CREATE TABLE `tab_doc` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tab_doc`
+-- Dumping data for table `TAB_DOC`
 --
 
-/*!40000 ALTER TABLE `tab_doc` DISABLE KEYS */;
-/*!40000 ALTER TABLE `tab_doc` ENABLE KEYS */;
+/*!40000 ALTER TABLE `TAB_DOC` DISABLE KEYS */;
+/*!40000 ALTER TABLE `TAB_DOC` ENABLE KEYS */;
 
 
 --
--- Definition of table `tab_doc_field`
+-- Definition of table `TAB_DOC_FIELD`
 --
 
-DROP TABLE IF EXISTS `tab_doc_field`;
-CREATE TABLE `tab_doc_field` (
+DROP TABLE IF EXISTS `TAB_DOC_FIELD`;
+CREATE TABLE `TAB_DOC_FIELD` (
   `Id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Name` varchar(50) NOT NULL,
   `Description` varchar(500) NOT NULL,
@@ -54,11 +54,11 @@ CREATE TABLE `tab_doc_field` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `tab_doc_field`
+-- Dumping data for table `TAB_DOC_FIELD`
 --
 
-/*!40000 ALTER TABLE `tab_doc_field` DISABLE KEYS */;
-/*!40000 ALTER TABLE `tab_doc_field` ENABLE KEYS */;
+/*!40000 ALTER TABLE `TAB_DOC_FIELD` DISABLE KEYS */;
+/*!40000 ALTER TABLE `TAB_DOC_FIELD` ENABLE KEYS */;
 
 
 
