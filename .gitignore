@@ -3,5 +3,3 @@
 .idea
 .settings
 **/.gradle/**
-build
-*.iml
